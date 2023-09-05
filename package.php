@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>package</title>
 
     <!-- swiper css link  -->
     <link href=" https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css " rel="stylesheet">
@@ -16,91 +16,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-
-<body>
 <!-- header section start -->
 
 <section class="header">
 
-<a href="home.php" class="logo">TRAVEL</a>
+    <a href="home.php" class="logo">TRAVEL</a>
 
-<nav class="navigationBar">
-    <a href="home.php">home</a>
-    <a href="about.php">about</a>
-    <a href="package.php">package</a>
-    <a href="book.php">book</a>
+    <nav class="navigationBar">
+        <a href="home.php">home</a>
+        <a href="about.php">about</a>
+        <a href="package.php">package</a>
+        <a href="book.php">book</a>
 
-</nav>
+    </nav>
 
-<!-- menu button  -->
-<div id="menu-btn" class="fas fa-bars"></div>
+    <!-- menu button  -->
+    <div id="menu-btn" class="fas fa-bars"></div>
 </section>
 <!-- header section end -->
 
-
-<!--you are here-->
-<!--home section starts-->
-
-<section class="home">
-    <div class="home-slider">
-        <div class="W">
-
-        </div>
-    </div>
-</section>
-
-<!--home section ends-->
-
-
-<!--services section starts-->
-<section class="services">
-
-    <h1 class="heading-title"> Our Services </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-
-            <img src="images/Local-guide-icon.png" alt="" >
-            <h3>Local Guides</h3>
-
-        </div>
-
-        <div class="box">
-
-            <img src="images/Tours-icon.png" alt="" >
-            <h3>Tours</h3>
-
-        </div>
-
-        <div class="box">
-
-            <img src="images/Lodging-icon.png" alt="" >
-            <h3>Lodging</h3>
-
-        </div>
-
-    </div>
-
-</section>
-<!--services section ends-->
-
-
-
-
-
-
-
-
+<div class="heading" style=" background:url(images/footer-bg.avif) no-repeat">
+    <h1>packages</h1>
+</div>
 
 
 
 
 <!--footer section starts-->
 <section class="footer">
-    
+
     <div class="box-container">
-        
+
         <div class="box">
             <h3>Quick links</h3>
             <a href="home.php"><i class="fas fa-angle right"></i>home</a>
@@ -109,16 +55,16 @@
             <a href="booking.php"><i class="fas fa-angle right"></i>book</a>
         </div>
 
-        
+
         <div class="box">
-            
+
             <h3>Extra links</h3>
-            
+
             <a href="#"><i class="fas fa-angle right"></i>Ask Questions</a>
             <a href="#"><i class="fas fa-angle right"></i>About Us</a>
             <a href="#"><i class="fas fa-angle right"></i>Privacy Policy</a>
             <a href="#"><i class="fas fa-angle right"></i>Terms of Use</a>
-            
+
         </div>
 
         <div class="box">
@@ -132,18 +78,18 @@
         </div>
 
         <div class="box">
-            
+
             <h3>Follow Us On:</h3>
-            
+
             <a href="#"><i class="fab fa-facebook-f"></i> FACEBOOK </a>
             <a href="#"><i class="fab fa-twitter"></i> TWITTER </a>
-                <a href="#"><i class="fab fa-instagram"></i> INSTAGRAM </a>
+            <a href="#"><i class="fab fa-instagram"></i> INSTAGRAM </a>
             <a href="#"><i class="fab fa-linkedin"></i> LINKEDIN </a>
         </div>
-        
+
     </div>
 
-    <div class="credit">Created by following instructions of mr.WebDesigner, icons provided by Freepik</a><span> wrote by Dinh Tan Dung</span> </div>
+    <div class="credit">Created by following instructions of mr.WebDesigner <span> wrote by Dinh Tan Dung</span> </div>
 </section>
 <!--footer section ends-->
 
@@ -159,5 +105,3 @@
 <!-- custom js file link script -->
 <script src="js/script.js"></script>
 
-</body>
-</html>
